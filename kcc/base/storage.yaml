@@ -5,7 +5,6 @@ metadata:
     cnrm.cloud.google.com/force-destroy: "false"
   labels:
     label-one: "value-one"
-  # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
   name: nar-test-bucket
 spec:
   uniformBucketLevelAccess: true
